@@ -817,7 +817,7 @@ img {
 }
 
 .icons-label {
-  fill: #111111; /**/
+  /* fill: #111111;  При фокусі на input, у svg у класі заданий стиль fill: #4D5AE5; */
   position: absolute;
   left: 16px;
   top: 50%;
@@ -831,6 +831,7 @@ img {
 
 .label-div {
   position: relative;
+  margin-bottom: 8px; /* Для div у класі заданий стиль margin-bottom: 8px; для визначення відступів*/
 }
 
 .modal-filed {
@@ -856,7 +857,7 @@ img {
   padding: 8px 16px;
 }
 
-.user.comment:focus {
+.user-comment:focus {
   border-color: #4d5ae5;
 }
 
