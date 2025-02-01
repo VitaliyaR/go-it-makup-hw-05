@@ -670,6 +670,7 @@ img {
   background-color: rgba(46, 47, 66, 0.4);
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 72px 24px 24px 24px; /**/
 }
 .modal {
   width: 408px;
@@ -705,11 +706,12 @@ img {
   justify-content: center;
   padding: 0;
   cursor: pointer;
-  background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1),
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-button:hover {
   background-color: #404bbf;
+  border: none;
 }
 
 .modal-button:focus {
@@ -767,6 +769,10 @@ img {
   top: 15px;
 }
 
+.images-foter {
+  fill: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .button-div {
   display: flex;
   flex-direction: row;
@@ -793,7 +799,6 @@ img {
 }
 
 .ion-close-back {
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .ion-close-back:hover {
   fill: #ffffff;
@@ -810,7 +815,6 @@ img {
   top: 50%;
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  height: 24px;
 }
 
 .icons-label:focus {
@@ -824,7 +828,7 @@ img {
 .modal-filed {
   margin-left: 18px;
 
-  margin-bottom: 24px;
+  margin-bottom: 8px;
 }
 
 .user-comment {
@@ -832,8 +836,7 @@ img {
   height: 120px;
   border-radius: 4px;
   border: 1px solid rgba(46, 47, 66, 0.4);
-  padding-left: 16px;
-  padding-top: 8px;
+
   outline: transparent;
   font-size: 12px;
   color: rgba(46, 47, 66, 0.4);
@@ -844,15 +847,19 @@ img {
   background-color: transparent;
   resize: none;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 8px 16px;
 }
 
 .user.commemt:focus {
   border-color: #4d5ae5;
 }
+
 .modal-comment {
   width: 56px;
   height: 14px;
   color: rgb(142, 143, 153);
+}
+.visually-hidden {
 }
 
 .model-check {
