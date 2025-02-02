@@ -830,7 +830,6 @@ img {
 
 .label-div {
   position: relative;
-  margin-bottom: 16px; /* Для div у класі заданий стиль margin-bottom: 16px для визначення відступів між div та наступним елементом*/
 }
 
 .modal-filed {
@@ -864,18 +863,6 @@ img {
   width: 56px;
   height: 14px;
   color: rgb(142, 143, 153);
-
-  /*new code */
-  display: inline-block;
-  color: rgb(142, 143, 153);
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 1.17;
-  letter-spacing: 4%;
-  margin-bottom: 5px;
-  margin-bottom: 4px;
-  letter-spacing: 0.04em;
-  display: block;
 }
 .visually-hidden {
 }
@@ -897,6 +884,10 @@ img {
 }
 
 .modal-cheeck-item {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
   width: 16px;
   height: 16px;
   border-radius: 2px;
@@ -905,13 +896,9 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  fill: transparent;
 }
 
-.modal-cheeck-item:checked + .modal-cheeck-text .modal-cheeck-item {
+.modal-cheeck:checked + .modal-cheeck-text .modal-cheeck-item {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
