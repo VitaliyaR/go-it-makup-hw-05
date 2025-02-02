@@ -754,6 +754,7 @@ img {
 }
 .input-name:focus {
   border-color: #4d5ae5;
+  fill: #4d5ae5;
 }
 
 .modal-button-two {
@@ -810,10 +811,11 @@ img {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); /* new code*/
 }
 .icon-close-back:hover {
+  fill: #4d5ae5;
 }
 
 .icon-close-back:focus {
-  fill: #4d5ae5; /*new code */
+  fill: #4d5ae5;
 }
 
 .icons-label {
@@ -830,10 +832,14 @@ img {
 
 .label-div {
   position: relative;
+  margin-bottom: 16px; /*new code */
 }
 
 .modal-filed {
-  margin-bottom: 8px; /* new code*/
+  margin-bottom: 8px;
+}
+.div-div {
+  margin-bottom: 16px;
 }
 
 .user-comment {
