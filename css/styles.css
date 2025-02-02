@@ -893,9 +893,8 @@ img {
   font-weight: 400;
   letter-spacing: 0.04em;
   line-height: 1.17;
-
-  display: inline-flex;
-  align-items: center;
+  /*display: flex;
+  align-items: center;*/
 }
 
 .modal-cheeck-item {
