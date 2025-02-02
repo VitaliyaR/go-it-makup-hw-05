@@ -872,12 +872,6 @@ img {
 .model-check {
 }
 
-.model-check:checked {
-  background-color: #404bbf; /*11111*/
-  fill: #f4f4fd; /*11111*/
-  /*11111*/
-}
-
 .svg-policy {
 }
 
@@ -904,7 +898,6 @@ img {
   align-items: center;
   justify-content: center;
   fill: transparent;
-  border: none; /* 111111*/
 }
 
 .modal-cheeck-item:checked + .modal-cheeck-text .modal-cheeck-item {
@@ -916,4 +909,58 @@ img {
 .policy-link {
   color: #4d5ae5;
   text-decoration: underline;
+}
+
+/*------------------------------------------------------*/
+.text-sub {
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.subscribe-subscribe {
+  display: flex;
+}
+.footer-field {
+  gap: 24px;
+}
+.input-email {
+  width: 264px;
+  height: 40px;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: #ffffff;
+}
+
+.input-email::placeholder {
+  color: #ffffff;
+}
+
+.footer-btn {
+  min-width: 165px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #4d5ae5;
+  border: none;
+  border-radius: 4px;
+}
+.images-foter {
+  margin-left: 16px;
 }
