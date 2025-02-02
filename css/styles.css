@@ -706,16 +706,17 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .modal-button:hover {
   background-color: #404bbf;
   border: none;
-  fill: #ffffff; /* new code 1*/
+  fill: #ffffff;
 }
 
 .modal-button:focus {
   background-color: #404bbf;
   border: none;
-  fill: #ffffff; /* new code 1*/
+  fill: #ffffff;
 }
 
 .modal-title {
@@ -752,7 +753,7 @@ img {
   padding-left: 38px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.input-name:focus {
+.input-name:focus + .icons-label {
   border-color: #4d5ae5;
   fill: #4d5ae5;
 }
@@ -808,14 +809,16 @@ img {
 }
 
 .icon-close-back {
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); /* new code*/
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icon-close-back:hover {
-  fill: #4d5ae5;
+  /*fill: #4d5ae5;*/
+  fill: #ffffff;
 }
 
 .icon-close-back:focus {
-  fill: #4d5ae5;
+  /*fill: #4d5ae5;*/
+  fill: #ffffff;
 }
 
 .icons-label {
@@ -900,12 +903,12 @@ img {
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+/*
 .modal-cheeck:checked + .modal-cheeck-text .modal-cheeck-item {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
-}
+}*/
 
 .policy-link {
   color: #4d5ae5;
