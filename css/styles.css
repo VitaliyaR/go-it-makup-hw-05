@@ -872,22 +872,11 @@ img {
 .model-check {
 }
 
-/*.policy {
-  color: rgb(77, 90, 229);
-  width: 16px;
-  height: 16px;
-  position: static;
-  text-decoration: underline;
-  border: 1px solid rgba(46, 47, 66, 0.4);
-  border-radius: 2px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  fill: transparent;
-}*/
+.model-check:checked {
+  background-color: #404bbf; /*11111*/
+  fill: #f4f4fd; /*11111*/
+  /*11111*/
+}
 
 .svg-policy {
 }
@@ -915,6 +904,7 @@ img {
   align-items: center;
   justify-content: center;
   fill: transparent;
+  border: none; /* 111111*/
 }
 
 .modal-cheeck-item:checked + .modal-cheeck-text .modal-cheeck-item {
