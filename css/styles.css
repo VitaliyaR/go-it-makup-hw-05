@@ -888,10 +888,9 @@ img {
   justify-content: center;
   fill: transparent;
 }*/
-/*
+
 .svg-policy {
 }
-/* пробній код с урока*/
 
 .modal-cheeck-text {
   color: rgb(142, 143, 153);
@@ -904,11 +903,18 @@ img {
 }
 
 .modal-cheeck-item {
-  width: 20px;
-  height: 20px;
-  border-radius: 6px;
-  border: 1px solid rgba(17, 17, 17, 0.14);
+  width: 16px;
+  height: 16px;
+  border-radius: 2px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
   margin-right: 12px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
 }
 
 .modal-cheeck-item:checked + .modal-cheeck-text .modal-cheeck-item {
