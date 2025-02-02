@@ -825,7 +825,7 @@ img {
 }
 
 .icons-label:focus {
-  fill: #4d5ae5; /*new last code При фокусі на input, у svg у класі заданий стиль fill: #4D5AE5; для зміни кольору іконки при кліку на input (для цього потрібно прибрати властивість fill у спрайті для іконки */
+  fill: #4d5ae5;
 }
 
 .label-div {
