@@ -871,15 +871,15 @@ img {
 
 .model-check {
 }
-.text-acept {
+.modal-cheeck-text {
   color: rgb(142, 143, 153);
   font-size: 12px;
-
+  font-weight: 400;
   letter-spacing: 0.04em;
   line-height: 1.17;
 }
 
-.policy {
+/*.policy {
   color: rgb(77, 90, 229);
   width: 16px;
   height: 16px;
@@ -894,7 +894,29 @@ img {
   align-items: center;
   justify-content: center;
   fill: transparent;
+}*/
+
+.svg-policy {
+}
+/* пробній код с урока*/
+.modal-cheeck-item {
+  width: 20px;
+  height: 20px;
+  border-radius: 6px;
+  border: 1px solid rgba(17, 17, 17, 0.14);
+  margin-right: 12px;
+  /*
+  display: flex;
+  align-items: center;
+  justify-content: center;*/
 }
 
-.svg-privacy {
+.modal-cheeck-item:checked + .modal-cheeck-text .modal-cheeck-item {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
+}
+
+.policy-link {
+  color: #4d5ae5;
 }
