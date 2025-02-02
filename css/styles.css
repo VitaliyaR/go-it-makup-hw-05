@@ -922,9 +922,10 @@ img {
 }
 .subscribe-subscribe {
   display: flex;
+  gap: 24px;
 }
 .footer-field {
-  gap: 24px;
+  gap: 24px; /* скорее всего неправильно тест после загрузки одноу удалить*/
 }
 .input-email {
   width: 264px;
