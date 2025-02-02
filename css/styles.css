@@ -727,12 +727,12 @@ img {
   height: 24px;
   letter-spacing: 2%;
   text-align: center;
-  margin-top: 74px;
+  /*margin-top: 74px;*/
   left: 28px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin-bottom: 16px;
+  margin-bottom: 26px; /**/
 }
 
 .modal-form {
@@ -791,12 +791,13 @@ img {
 .button-div {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
   gap: 10;
-  padding: 16px 32px 16px 32px;
-  margin-left: 65px;
-  margin-bottom: 34px;
+  /*  padding: 16px 32px 16px 32px;*/
+  margin-top: 23px;
+  /* margin-left: 65px;*/
+  /* margin-bottom: 34px;*/
 }
 
 .modal-label {
@@ -839,14 +840,17 @@ img {
 
 .label-div {
   position: relative;
-  margin-bottom: 16px; /*new code */
+  /*margin-bottom: 16px;*/ /*new code */
 }
 
 .modal-filed {
   margin-bottom: 8px;
 }
 .modal-filed-big {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
+}
+.modal-filed-big-big {
+  margin-bottom: 18px;
 }
 .user-comment {
   width: 100%;
@@ -859,18 +863,21 @@ img {
   color: rgba(46, 47, 66, 0.4);
   letter-spacing: 0.04em;
   line-height: 1.17;
-  margin-top: 8px;
   height: 120px;
   background-color: transparent;
   resize: none;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  padding: 8px 16px;
+  padding-bottom: 6px;
 }
 
 .user-comment:focus {
   border-color: #4d5ae5;
 }
 
+.user-comment::placeholder {
+  padding-left: 16px;
+  padding-top: 8px;
+}
 .modal-comment {
   width: 56px;
   height: 14px;
